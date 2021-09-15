@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Search from './Search';
 import Sort from './Sort';
 
+// Review code
 class Control extends Component {
     render() {
         return (

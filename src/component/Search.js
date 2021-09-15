@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+// Anh Dự - Review code
 class Search extends Component {
     constructor(props){
         super(props);
