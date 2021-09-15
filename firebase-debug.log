@@ -1,0 +1,37 @@
+[debug] [2021-09-14T14:36:06.929Z] ----------------------------------------------------------------------
+[debug] [2021-09-14T14:36:06.936Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2021-09-14T14:36:06.937Z] CLI Version:   9.18.0
+[debug] [2021-09-14T14:36:06.937Z] Platform:      win32
+[debug] [2021-09-14T14:36:06.938Z] Node Version:  v15.9.0
+[debug] [2021-09-14T14:36:06.940Z] Time:          Tue Sep 14 2021 21:36:06 GMT+0700 (Giờ Đông Dương)
+[debug] [2021-09-14T14:36:06.941Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-14T14:36:07.079Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-14T14:36:07.080Z] > authorizing via signed-in user (vangiau.recca@gmail.com)
+[debug] [2021-09-14T14:36:07.080Z] [iam] checking project to-do-list-ce493 for permissions ["firebase.projects.get"]
+[debug] [2021-09-14T14:36:07.085Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-09-14T14:36:07.086Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-09-14T14:36:07.310Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Tue, 14 Sep 2021 14:36:07 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-14T14:36:07.344Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/to-do-list-ce493:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-09-14T14:36:08.506Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 14 Sep 2021 14:36:08 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=983","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-14T14:36:08.513Z] > refreshing access token with scopes: []
+[debug] [2021-09-14T14:36:08.513Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-09-14T14:36:08.653Z] <<< HTTP RESPONSE 200 {"date":"Tue, 14 Sep 2021 14:36:08 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-14T14:36:08.686Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/to-do-list-ce493 [none]
+[debug] [2021-09-14T14:36:09.043Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/to-do-list-ce493 200
+[debug] [2021-09-14T14:36:09.043Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/to-do-list-ce493 {"projectId":"to-do-list-ce493","projectNumber":"95697949542","displayName":"To Do List","name":"projects/to-do-list-ce493","resources":{"hostingSite":"to-do-list-ce493"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from 'D:\VS_Code\ReactJS\ToDoList'...
+[info] 
+[debug] [2021-09-14T14:36:09.051Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/to-do-list-ce493/sites 
+[debug] [2021-09-14T14:36:10.423Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/to-do-list-ce493/sites 200
+[debug] [2021-09-14T14:36:10.423Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/to-do-list-ce493/sites {"sites":[{"name":"projects/95697949542/sites/to-do-list-ce493","defaultUrl":"https://to-do-list-ce493.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2021-09-14T14:36:10.425Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/to-do-list-ce493/webApps/-/config [none]
+[debug] [2021-09-14T14:36:11.433Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/to-do-list-ce493/webApps/-/config 200
+[debug] [2021-09-14T14:36:11.434Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/to-do-list-ce493/webApps/-/config {"projectId":"to-do-list-ce493","storageBucket":"to-do-list-ce493.appspot.com","apiKey":"AIzaSyARV2nKfE1znupUD-5Qc2SDUmi8-IIHdy8","authDomain":"to-do-list-ce493.firebaseapp.com","messagingSenderId":"95697949542"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: 127.0.0.1 - - [14/Sep/2021:14:36:24 +0000] "GET / HTTP/1.1" 200 1075 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Sep/2021:14:36:24 +0000] \"GET / HTTP/1.1\" 200 1075 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\""}}
